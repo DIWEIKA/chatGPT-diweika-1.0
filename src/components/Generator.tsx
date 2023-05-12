@@ -227,8 +227,8 @@ export default () => {
         when={!loading()}
         fallback={() => (
           <div class="gen-cb-wrapper">
-            <span>AI is thinking...</span>
-            <div class="gen-cb-stop" onClick={stopStreamFetch}>Stop</div>
+            <span>AI正在思考...</span>
+            <div class="gen-cb-stop" onClick={stopStreamFetch}>停止响应</div>
           </div>
         )}
       >
@@ -237,7 +237,7 @@ export default () => {
             ref={inputRef!}
             disabled={systemRoleEditing()}
             onKeyDown={handleKeydown}
-            placeholder="Enter something..."
+            placeholder="请输入..."
             autocomplete="off"
             autofocus
             onInput={() => {

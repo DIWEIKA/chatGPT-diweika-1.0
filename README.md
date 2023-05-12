@@ -8,43 +8,7 @@ A demo repo based on [OpenAI GPT-3.5 Turbo API.](https://platform.openai.com/doc
 
 > ⚠️ Notice: Our API Key limit has been exhausted. So the demo site is not available now.
 
-![chat-logo](https://cdn.staticaly.com/gh/yzh990918/static@master/chat-logo.webp)
-
-## Introducing `Anse`
-
-Looking for multi-chat, image-generation, and more powerful features? Take a look at our newly launched [Anse](https://github.com/anse-app/anse).
-
-More info on https://github.com/ddiu8081/chatgpt-demo/discussions/247.
-
-[![image](https://user-images.githubusercontent.com/1998168/235048408-ca4015f5-4d3c-4c64-9a6c-9069a89cd23a.png)](https://github.com/anse-app/anse)
-
-## Running Locally
-
-### Pre environment
-1. **Node**: Check that both your development environment and deployment environment are using `Node v18` or later. You can use [nvm](https://github.com/nvm-sh/nvm) to manage multiple `node` versions locally。
-   ```bash
-    node -v
-   ```
-2. **PNPM**: We recommend using [pnpm](https://pnpm.io/) to manage dependencies. If you have never installed pnpm, you can install it with the following command:
-   ```bash
-    npm i -g pnpm
-   ```
-3. **OPENAI_API_KEY**: Before running this application, you need to obtain the API key from OpenAI. You can register the API key at [https://beta.openai.com/signup](https://beta.openai.com/signup).
-
-### Getting Started
-
-1. Install dependencies
-   ```bash
-    pnpm install
-   ```
-2. Copy the `.env.example` file, then rename it to `.env`, and add your [OpenAI API key](https://platform.openai.com/account/api-keys) to the `.env` file.
-   ```bash
-    OPENAI_API_KEY=sk-xxx...
-   ```
-3. Run the application, the local project runs on `http://localhost:3000/`
-   ```bash
-    pnpm run dev
-   ```
+![chat-logo](./chat-logo.png)
 
 ## Deploy
 
